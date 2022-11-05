@@ -8,30 +8,39 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <img src="./logo.svg" alt="logo" class="logo">
-        <nav class="header__navigation">
-            <ul class="header__navigation__list">
-                <li class="header__navigation__item">
-                    <p>On Sale</p>
-                </li>
-                <li class="header__navigation__item">
-                    <p>For Rent</p>
-                </li>
-                <li class="header__navigation__item">
-                    <p>New Residential Project</p>
-                </li>
-                <li class="header__navigation__item">
-                    <p>Property News</p>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header__wrapper" id="header">
+        <header class="header">
+        <img src="./Images/logo.svg" alt="logo" class="logo">
+            <nav class="header__navigation">
+                <ul class="header__navigation__list">
+                    <li class="header__navigation__item">
+                        <p>On Sale</p>
+                    </li>
+                    <li class="header__navigation__item">
+                        <p>For Rent</p>
+                    </li>
+                    <li class="header__navigation__item">
+                        <p>New Residential Project</p>
+                    </li>
+                    <li class="header__navigation__item">
+                        <p>Property News</p>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="header__burger">
+                <div class="header__burger-button" id="burgerButton">
+                    <div class="header__burger-button-one" id="burgerLineOne"></div>
+                    <div class="header__burger-button-two" id="burgerLineTwo"></div>
+                    <div class="header__burger-button-three" id="burgerLineThree"></div>
+                </div>
+            </nav>
+        </header>
+    </div>
 
     <main>
-        <section class="head">
+        <section class="head" id="head">
             <div class="head__background">
-                <img src="./headerBackground.png" alt="headerBackground" class="head__background-img">
+                <img src="./Images/headerBackground.png" alt="headerBackground" class="head__background-img">
             </div>
             <div class="head__content">
                 <div class="head__text">
@@ -54,28 +63,28 @@
         <section class="choise">
             <div class="choise__card">
                 <div class="choise__card__background">
-                    <img src="./cardOne.png" alt="cardOne" class="choise__card__background-img">
+                    <img src="./Images/cardOne.png" alt="cardOne" class="choise__card__background-img">
                     <div class="choise__card__footer">
-                        <img src="./arrow.svg" alt="arrow" class="choise__card__footer-arrow">
+                        <img src="./Images/arrow.svg" alt="arrow" class="choise__card__footer-arrow">
                         <p class="choise__card__footer-text">Same great quality. New lower prices.</p>
                     </div>
                 </div>
             </div>
             <div class="choise__card">
                 <div class="choise__card__background">
-                    <img src="./cardTwo.png" alt="cardTwo" class="choise__card__background-img">
+                    <img src="./Images/cardTwo.png" alt="cardTwo" class="choise__card__background-img">
                 </div>
                 <div class="choise__card__footer">
-                    <img src="./arrow.svg" alt="arrow">
+                    <img src="./Images/arrow.svg" alt="arrow">
                     <p class="choise__card__footer-text">Everyday Essentials, High quality affordable</p>
                 </div>
             </div>
             <div class="choise__card">
                 <div class="choise__card__background">
-                    <img src="./cardThree.png" alt="cardThree" class="choise__card__background-img">
+                    <img src="./Images/cardThree.png" alt="cardThree" class="choise__card__background-img">
                 </div>
                 <div class="choise__card__footer">
-                    <img src="./arrow.svg" alt="arrow">
+                    <img src="./Images/arrow.svg" alt="arrow">
                     <p class="choise__card__footer-text">Join the makeover journey</p>
                 </div>
             </div>
@@ -85,21 +94,21 @@
                 <h1 class="company__header">Why housesale company?</h1>
                 <div class="company__content">
                     <div class="company__item">
-                        <img src="./gramophone.svg" alt="gramophone" class="company__svg">
+                        <img src="./Images/gramophone.svg" alt="gramophone" class="company__svg">
                         <div class="company__item-text">
                             <h1 class="company__item-text__header">Transparent pricing</h1>
                             <p class="company__item-text__additional">See fixed prices before you book. No hidden charges.</p>
                         </div>
                     </div>
                     <div class="company__item">
-                        <img src="./people.svg" alt="people" class="company__svg">
+                        <img src="./Images/people.svg" alt="people" class="company__svg">
                         <div class="company__item-text">
                             <h1 class="company__item-text__header">Experts only</h1>
                             <p class="company__item-text__additional">Our professionals are well trained and have on-job expertise.</p>
                         </div>
                     </div>
                     <div class="company__item">
-                        <img src="./chat.svg" alt="chat" class="company__svg">
+                        <img src="./Images/chat.svg" alt="chat" class="company__svg">
                         <div class="company__item-text">
                             <h1 class="company__item-text__header">Fully equipped</h1>
                             <p class="company__item-text__additional">We bring everything needed to get the job done well.</p>
@@ -109,7 +118,7 @@
             </div>
             <div class="company__right-side">
                 <div class="company__img-container">
-                    <img src="./companyImg.png" alt="companyImg" class="company__img">
+                    <img src="./Images/companyImg.png" alt="companyImg" class="company__img">
                 </div>
             </div>
         </section>
@@ -119,7 +128,7 @@
                 <p class="book__additional">Enter your mobile number to get the professionals help</p>
                 <div class="book__input">
                     <div class="book__input-flag">
-                        <img src="./flag.svg" alt="flag">
+                        <img src="./Images/flag.svg" alt="flag">
                         <p>+13</p>
                     </div>
                     <input type="tel" class="book__input-field">
@@ -127,6 +136,148 @@
                 </div>
             </div>
         </section>
+        <section class="inspiration">
+            <h1 class="inspiration__header">More ideas and inspiration</h1>
+            <div class="inspiration__content">
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationOne.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationTwo.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationThree.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationFour.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationFive.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationSix.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationSeven.png" alt="inspirationItem" class="inspiration__item-img"></div>
+                <div class="inspiration__item">
+                    <img src="./Images/inspirationEight.png" alt="inspirationItem" class="inspiration__item-img"></div>
+            </div>
+        </section>
+        <section class="ideas">
+            <h1 class="ideas__header">More ideas and inspiration</h1>
+            <div class="ideas__content">
+                <div class="ideas__left-side">
+                    <p class="ideas__left-side__text-one">Housesale chose to work together with the Lebanese designer Nada Debs. We are thrilled to present this collaboration and the LJUV collection, and we hope that you can see, feel, use the connection between a designer from the Middle East  democratic design.</p>
+                    <p class="ideas__left-side__text-two">Nada Debs is a Levantine designer living and working in Beirut. Her work spans scale and discipline: from product to furniture design to one-off commission across craft, art, fashion, and interiors. Nada grew up in Japan, studied design in Rhode Island School of Design in the US, and has spent significant periods living and traveling the world, finding connections of each of her experiences in all her work. She calls her approach handmade, and heart-made!</p>
+                    <button class="ideas__left-side__button">More Collection</button>
+                </div>
+                <div class="ideas__right-side">
+                    <div class="ideas__right-side__img-wrapper">
+                        <img src="./Images/ideasOne.png" alt="ideasOne" class="ideas__right-side__img">
+                    </div>
+                    <div class="ideas__right-side__img-wrapper">
+                        <img src="./Images/ideasTwo.png" alt="ideasTwo" class="ideas__right-side__img">
+                    </div>
+                    <div class="ideas__right-side__img-wrapper">
+                        <img src="./Images/ideasThree.png" alt="ideasThree" class="ideas__right-side__img">
+                    </div>
+                </div>
+            </div>
+            <div class="ideas__line"></div>
+        </section>
+        <section class="explore">
+            <div class="explore__content">
+                <div class="explore__left-side">
+                    <p class="explore__left-side__text">Sofas | Beds | Dining | Tv units | Mattresses | Seating | Coffee tables | Wardrobes | Storage | Bookshelves | Shoe racks | Decor| Bathroom | Textiles | Pots & plants | Home electronics | Home improvement | Lighting</p>
+                </div>
+                <div class="explore__right-side">
+                    <h1 class="explore__header">Explore our furniture & home <br>furnishing range</h1>
+                    <h1 class="explore__right-side__header">IKEA is a global leader in life at home.</h1>
+                    <p class="explore__right-side__additional">Whether you just moved into a new home or looking to revamp your current one, we at IKEA are here to inspire you with affordable home furniture solutions, there is a piece of furniture to every corner of your home. Create a home that is perfect for you.</p>
+                    <p class="explore__right-side__additional">Shopping at IKEA is a bit different and exciting compared to your shopping at an everyday retail. It is about experiencing solutions first hand and getting to know ideas and inspirations that can fit perfectly into your home. That's why, we offer more than 7500 products, solutions at our store along with home furnishing ideas and services for you to explore.</p>
+                    <p class="explore__right-side__additional">When you visit IKEA store, make yourself at home in our many room settings in the store. Squeeze the upholsteries, feel the oriental rugs, try the sofa beds and open the cabinets to feel the quality. On the price tag, you'll find all you need to know about a product, including where in the store you can pick it up.</p>
+                    <p class="explore__right-side__additional">Since most IKEA furniture is flat-packed, they are quite easy to bring home when you buy from the store.</p>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__header">
+            <p class="footer__header-item">Delivery Service</p>
+            <p class="footer__header-item">Assembly Service</p>
+            <p class="footer__header-item">Customer Service</p>
+            <p class="footer__header-item">Contact Us</p>
+            <p class="footer__header-item">Near Me</p>
+            <p class="footer__header-item">Careers</p>
+            <p class="footer__header-item">Gift Cards</p>
+            <p class="footer__header-item">Contact Us</p>
+        </div>
+        <div class="footer__header-line"></div>
+        <div class="footer__main">
+            <h1 class="footer__main-header">Serving in</h1>
+            <div class="footer__main__content">
+                <div class="footer__main__content-item">
+                    <h1 class="footer__main__content-item__header">Australia</h1>
+                    <div class="footer__main__content-item__content">
+                        <p class="footer__main__content-item__content-item">Sydney</p>
+                        <p class="footer__main__content-item__content-item">Albury</p>
+                        <p class="footer__main__content-item__content-item">Queensland</p>
+                        <p class="footer__main__content-item__content-item">Adelaide</p>
+                        <p class="footer__main__content-item__content-item">Hobart</p>
+                        <p class="footer__main__content-item__content-item">Darwin</p>
+                        <p class="footer__main__content-item__content-item">Canberra</p>
+                        <p class="footer__main__content-item__content-item">Perth</p>
+                        <p class="footer__main__content-item__content-item">Melbourne</p>
+                    </div>
+                </div>
+                <div class="footer__main__content-item">
+                    <h1 class="footer__main__content-item__header">UAE</h1>
+                    <div class="footer__main__content-item__content">
+                        <p class="footer__main__content-item__content-item">Dubai</p>
+                        <p class="footer__main__content-item__content-item">Abu Dhabi</p>
+                        <p class="footer__main__content-item__content-item">Sharjah</p>
+                        <p class="footer__main__content-item__content-item">Ajman</p>
+                        <p class="footer__main__content-item__content-item">Al Ain</p>
+                    </div>
+                </div>
+                <div class="footer__main__content-item">
+                    <h1 class="footer__main__content-item__header">USA</h1>
+                    <div class="footer__main__content-item__content">
+                        <p class="footer__main__content-item__content-item">New York</p>
+                        <p class="footer__main__content-item__content-item">Los Angeles</p>
+                        <p class="footer__main__content-item__content-item">Chicago</p>
+                        <p class="footer__main__content-item__content-item">Houston</p>
+                        <p class="footer__main__content-item__content-item">Philadelphia</p>
+                        <p class="footer__main__content-item__content-item">San Diego</p>
+                        <p class="footer__main__content-item__content-item">Washington</p>
+                        <p class="footer__main__content-item__content-item">Boston</p>
+                        <p class="footer__main__content-item__content-item">Oklahoma City</p>
+                        <p class="footer__main__content-item__content-item">Las Vegas</p>
+                    </div>
+                </div>
+                <div class="footer__main__content-item">
+                    <h1 class="footer__main__content-item__header">Maxico</h1>
+                    <div class="footer__main__content-item__content">
+                        <p class="footer__main__content-item__content-item">Mexico City</p>
+                        <p class="footer__main__content-item__content-item">Ecatepec</p>
+                        <p class="footer__main__content-item__content-item">Guadalajara</p>
+                        <p class="footer__main__content-item__content-item">Puebla City</p>
+                        <p class="footer__main__content-item__content-item">Ciudad Juárez</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__main-line"></div>
+        <div class="footer__footer">
+            <img src="./Images/logo.svg" alt="logo" class="footer__footer-logo">
+            <p class="footer__footer-text">© 2020 Housesale Technologies Ltd.</p>
+            <p class="footer__footer-text">1760  Dancing Dove Lane, New York, USA</p>
+            <p class="footer__footer-text">sales@housesales.com</p>
+            <div class="footer__footer-img__wrapper">
+                <img src="./Images/footerOne.png" alt="footerImg" class="footer__footer-img">
+            </div>
+            <div class="footer__footer-img__wrapper">
+                <img src="./Images/footerTwo.png" alt="footerImg" class="footer__footer-img">
+            </div>
+        </div>
+        </div>
+    </footer>
 </body>
+<script src="app.js"></script>
 </html>
