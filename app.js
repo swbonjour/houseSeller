@@ -26,9 +26,9 @@ const header = document.getElementById('header');
 document.addEventListener('scroll', (e) => {
     if(window.pageYOffset >= headPage.getBoundingClientRect().height) {
         headerWrapper.style.background = "black";
-        header.style.padding = "2rem";
+        header.style.paddingTop = "2rem";
     } else {
         headerWrapper.style.background = "";
-        header.style.padding = "3.4rem";
+        header.style.paddingTop = "3.4rem";
     }
 })
