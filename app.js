@@ -20,12 +20,15 @@ burgerButton.addEventListener('click', (e) => {
 })
 
 const headPage = document.getElementById('head');
+const headerWrapper = document.getElementById('headerWrapper');
 const header = document.getElementById('header');
 
 document.addEventListener('scroll', (e) => {
     if(window.pageYOffset >= headPage.getBoundingClientRect().height) {
-        header.style.background = "black";
+        headerWrapper.style.background = "black";
+        header.style.padding = "2rem";
     } else {
-        header.style.background = "";
+        headerWrapper.style.background = "";
+        header.style.padding = "3.4rem";
     }
 })
