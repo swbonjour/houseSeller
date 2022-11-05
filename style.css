@@ -138,6 +138,10 @@ body {
     transition: 0.2s all;
 }
 
+.header__padding__scroll {
+    padding-top: 2rem;
+}
+
 @media screen and (max-width: 600px) {
     .header__navigation {
         display: none;
