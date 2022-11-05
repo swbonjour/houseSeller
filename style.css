@@ -142,6 +142,39 @@ body {
     padding-top: 2rem;
 }
 
+.header__burger-menu {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-30rem);
+    transition: 0.2s all;
+}
+
+.header__burger-menu__open {
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.header__burger-menu__item {
+    height: 5rem;
+    color: red;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__burger-menu__item-text {
+    font-size: calc(12px + 10 * (100vw / 1440));
+    font-weight: 400;
+    color: white;
+}
+
 @media screen and (max-width: 600px) {
     .header__navigation {
         display: none;
